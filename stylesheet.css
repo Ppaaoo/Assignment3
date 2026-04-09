@@ -1,0 +1,37 @@
+/*Kombinera h1 - h6 till samma css deklaration*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+/*Kombinera anda textelement i filen till samma css deklaration*/
+p, li, td, tr, th, td {
+    font-family: "Candara", Verdana, sans-serif;
+}
+/*CSS för elementet med klassen tabell1c*/
+.tabell1 {
+    background-color: #ffcccc;                /*Sätt bakgrundsfärg*/
+    padding: 0 10px;                          /*Sätt luft på x-axeln*/
+    border: 5px groove #b67f7f;               /*Styla kanten*/
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /*Lite skugga under tabellen*/
+    min-width: 400px;                         /*Tabellens minsta bredd är 400px*/
+}
+
+/*Sätt bakgrundsfärg för elementet med klassen tabell2 till hex-koden #ffcc99*/
+.tabell2 {
+    background-color: #ffcc99;
+    padding: 0 10px;
+    border: 5px groove #ecac6a;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+/*Sätt alla a-element så de har färgen blå*/
+a {
+    color: blue;
+}
+/*Sätt alla a-element så de har färgen grön när "hover" är aktivt (muspekaren är över elementet)*/
+a:hover {
+    color: #009900;
+}
+/*Sätt bakgrundsfärg för elementet med klassen foot till hex-koden #009900*/
+.foot {
+    background-color: #009900;
+}

@@ -1,0 +1,49 @@
+div {
+    margin: 1rem 0;
+}
+
+form {
+    padding: 0.5rem 1rem 1rem;
+    background-color: antiquewhite;
+    max-width: fit-content;
+    align-content: center;
+    margin: auto;
+}
+
+button {
+    min-width: fit-content;
+    padding: 1rem 1.5rem;
+    margin-left: 1rem;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    font-size: 1.2rem;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #437be1;
+}
+
+select {
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 0.1rem;
+}
+
+h1 {
+    font-family: "Candara", Verdana, sans-serif;
+    align-self: center;
+    justify-self: center;
+}
+
+* {
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+.radio-button :hover {
+    /* Googla på hur man kan ändra bakgrundsfärg vid hover på radio buttons*/
+    background-color: hotpink;
+}
